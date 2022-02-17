@@ -22,3 +22,12 @@ Loja de Sucos do Jailson
     Nome (texto)
     Preço (número)
 */
+
+/*
+Chave primaria - PrimaryKey ou PK
+Serve para discernir registros em tabelas relacionadas - Atribuí chave primaria ao registro tornando-o único. 
+
+CREATE TABLE tb_Produtos (
+	cdProduto INT PRIMARY KEY IDENTITY(1,1),
+
+*/
