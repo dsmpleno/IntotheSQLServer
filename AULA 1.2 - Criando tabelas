@@ -1,27 +1,7 @@
-/*
-Loja de Sucos do Jailson
-
-*Vende sucos (principalmente de laranja)
-
-*Dados dos clientes;
-  Nome         (texto)
-  Nascimento   (data)
-  Sexo         (número)
-  Endereço
-    Rua        (texto)
-    Cidade     (texto)
-    Estado     (texto)
-    Telefones  (texto)
-    
-*Dados das vendas
-    Número da venda      (número)
-    Cliente que comprou  (texto)
-    Preço Total          (número)
-    
-*Dados do produto
-    Nome (texto)
-    Preço (número)
-*/
+CREATE TABLE tb_DadosProduto(
+	nmProduto VARCHAR(50) NOT NULL,			--Obrigatório
+	vlProduto DECIMAL(6,2) NOT NULL,
+);
 
 CREATE TABLE tb_Clientes(
 	nmCliente VARCHAR(50) NOT NULL,
@@ -34,8 +14,7 @@ CREATE TABLE tb_Clientes(
 	nmTelefone2 VARCHAR (15)
 );
 
+CREATE TABLE tb_Vendas(
 
-CREATE TABLE tb_DadosProduto(
-	nmProduto VARCHAR(50) NOT NULL,			--Obrigatório
-	vlProduto DECIMAL(6,2) NOT NULL,
 );
+
