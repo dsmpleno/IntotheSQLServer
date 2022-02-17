@@ -13,12 +13,12 @@ Loja de Sucos do Jailson
     Estado     (texto)
     Telefones  (texto)
     
-Dados das vendas
+*Dados das vendas
     Número da venda      (número)
     Cliente que comprou  (texto)
     Preço Total          (número)
     
-Dados do produto
+*Dados do produto
     Nome (texto)
     Preço (número)
 */
