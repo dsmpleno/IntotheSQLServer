@@ -3,3 +3,8 @@ INSERT INTO [table_name] VALUES(COLUMN1VALUE,COLUMN2VALUE,COLUMN3VALUE);
 INSERT INTO tb_Produtos VALUES('Suco de tamarindo','4.50');
    2º -> Executar
 */
+
+/* 1º -> Inserir dados em tabela
+INSERT INTO [table_name] (COLUMN1NAME,COLUMN2NAME,COLUMN3NAME) VALUES(COLUMN1VALUE,COLUMN2VALUE,COLUMN3VALUE);
+INSET INTO tb_Produtos (vlProduto, NmPoduto, tpProduto) VALUES(1.50,'suco de tamarindo','fruta');
+*/
