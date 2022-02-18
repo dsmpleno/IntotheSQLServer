@@ -1,0 +1,5 @@
+/* 1º -> Inserir dados em tabela 
+INSERT INTO [table_name] VALUES(COLUMN1VALUE,COLUMN2VALUE,COLUMN3VALUE);
+INSERT INTO tb_Produtos VALUES('Suco de tamarindo','4.50');
+   2º -> Executar
+*/
